@@ -1,0 +1,7 @@
+echo "# TestAmplify" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mram11/TestAmplify.git
+git push -u origin main
